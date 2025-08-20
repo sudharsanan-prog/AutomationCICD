@@ -195,6 +195,20 @@
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <version>3.11.0</version>
+                        <configuration>
+                            <compilerArgs>
+                                <arg>--add-exports</arg>
+                                <arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
+                            </compilerArgs>
+                            <release>17</release> <!-- Optional: target compatibility -->
+                        </configuration>
+                    </plugin>
+
                 </plugins>
             </build>
         </profile>
