@@ -236,13 +236,13 @@
             <version>4.32.0</version>
         </dependency>
 
-<!--maven-->
-<!--        <dependency>-->
-<!--             <groupId>org.projectlombok</groupId>-->
-<!--             <artifactId>lombok</artifactId>-->
-<!--             <version>1.18.32</version> &lt;!&ndash; or latest available &ndash;&gt;-->
-<!--             <scope>provided</scope>-->
-<!--        </dependency>-->
+
+        <dependency>
+             <groupId>org.projectlombok</groupId>
+             <artifactId>lombok</artifactId>
+             <version>1.18.32</version> <!-- or latest available -->
+             <scope>provided</scope>
+        </dependency>
 
 
         <dependency>
